@@ -20,7 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'graphql/map'
+# ...
+field :hash do
+  type GraphQL::MapType
+
+  resolve -> (obj, args, ctx) { { x: 'foo', y: 'bar'} }
+end
+```
 
 ## Development
 
