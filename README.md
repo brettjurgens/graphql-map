@@ -1,5 +1,7 @@
 # GraphQL::Map
 
+[![Gem Version](https://badge.fury.io/rb/graphql-map.svg)](https://badge.fury.io/rb/graphql-map)
+
 This adds a Map Scalar type to your GraphQL Server
 
 ## Installation
